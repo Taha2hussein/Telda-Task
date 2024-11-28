@@ -1,0 +1,629 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7207F2E42CF8B1700047F8B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7207F2E32CF8B1700047F8B9 /* AppDelegate.swift */; };
+		7207F2E62CF8B1700047F8B9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7207F2E52CF8B1700047F8B9 /* SceneDelegate.swift */; };
+		7207F2E82CF8B1700047F8B9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7207F2E72CF8B1700047F8B9 /* ViewController.swift */; };
+		7207F2EB2CF8B1700047F8B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7207F2E92CF8B1700047F8B9 /* Main.storyboard */; };
+		7207F2EE2CF8B1700047F8B9 /* TeldaTask.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7207F2EC2CF8B1700047F8B9 /* TeldaTask.xcdatamodeld */; };
+		7207F2F02CF8B1720047F8B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7207F2EF2CF8B1720047F8B9 /* Assets.xcassets */; };
+		7207F2F32CF8B1720047F8B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7207F2F12CF8B1720047F8B9 /* LaunchScreen.storyboard */; };
+		7207F2FE2CF8B1720047F8B9 /* TeldaTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7207F2FD2CF8B1720047F8B9 /* TeldaTaskTests.swift */; };
+		7207F3082CF8B1720047F8B9 /* TeldaTaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7207F3072CF8B1720047F8B9 /* TeldaTaskUITests.swift */; };
+		7207F30A2CF8B1720047F8B9 /* TeldaTaskUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7207F3092CF8B1720047F8B9 /* TeldaTaskUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7207F2FA2CF8B1720047F8B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7207F2D82CF8B1700047F8B9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7207F2DF2CF8B1700047F8B9;
+			remoteInfo = TeldaTask;
+		};
+		7207F3042CF8B1720047F8B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7207F2D82CF8B1700047F8B9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7207F2DF2CF8B1700047F8B9;
+			remoteInfo = TeldaTask;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7207F2E02CF8B1700047F8B9 /* TeldaTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TeldaTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7207F2E32CF8B1700047F8B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7207F2E52CF8B1700047F8B9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7207F2E72CF8B1700047F8B9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7207F2EA2CF8B1700047F8B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7207F2ED2CF8B1700047F8B9 /* TeldaTask.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TeldaTask.xcdatamodel; sourceTree = "<group>"; };
+		7207F2EF2CF8B1720047F8B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7207F2F22CF8B1720047F8B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7207F2F42CF8B1720047F8B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7207F2F92CF8B1720047F8B9 /* TeldaTaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TeldaTaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7207F2FD2CF8B1720047F8B9 /* TeldaTaskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeldaTaskTests.swift; sourceTree = "<group>"; };
+		7207F3032CF8B1720047F8B9 /* TeldaTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TeldaTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7207F3072CF8B1720047F8B9 /* TeldaTaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeldaTaskUITests.swift; sourceTree = "<group>"; };
+		7207F3092CF8B1720047F8B9 /* TeldaTaskUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeldaTaskUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7207F2DD2CF8B1700047F8B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7207F2F62CF8B1720047F8B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7207F3002CF8B1720047F8B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7207F2D72CF8B1700047F8B9 = {
+			isa = PBXGroup;
+			children = (
+				7207F2E22CF8B1700047F8B9 /* TeldaTask */,
+				7207F2FC2CF8B1720047F8B9 /* TeldaTaskTests */,
+				7207F3062CF8B1720047F8B9 /* TeldaTaskUITests */,
+				7207F2E12CF8B1700047F8B9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7207F2E12CF8B1700047F8B9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7207F2E02CF8B1700047F8B9 /* TeldaTask.app */,
+				7207F2F92CF8B1720047F8B9 /* TeldaTaskTests.xctest */,
+				7207F3032CF8B1720047F8B9 /* TeldaTaskUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7207F2E22CF8B1700047F8B9 /* TeldaTask */ = {
+			isa = PBXGroup;
+			children = (
+				7207F2E32CF8B1700047F8B9 /* AppDelegate.swift */,
+				7207F2E52CF8B1700047F8B9 /* SceneDelegate.swift */,
+				7207F2E72CF8B1700047F8B9 /* ViewController.swift */,
+				7207F2E92CF8B1700047F8B9 /* Main.storyboard */,
+				7207F2EF2CF8B1720047F8B9 /* Assets.xcassets */,
+				7207F2F12CF8B1720047F8B9 /* LaunchScreen.storyboard */,
+				7207F2F42CF8B1720047F8B9 /* Info.plist */,
+				7207F2EC2CF8B1700047F8B9 /* TeldaTask.xcdatamodeld */,
+			);
+			path = TeldaTask;
+			sourceTree = "<group>";
+		};
+		7207F2FC2CF8B1720047F8B9 /* TeldaTaskTests */ = {
+			isa = PBXGroup;
+			children = (
+				7207F2FD2CF8B1720047F8B9 /* TeldaTaskTests.swift */,
+			);
+			path = TeldaTaskTests;
+			sourceTree = "<group>";
+		};
+		7207F3062CF8B1720047F8B9 /* TeldaTaskUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7207F3072CF8B1720047F8B9 /* TeldaTaskUITests.swift */,
+				7207F3092CF8B1720047F8B9 /* TeldaTaskUITestsLaunchTests.swift */,
+			);
+			path = TeldaTaskUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7207F2DF2CF8B1700047F8B9 /* TeldaTask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7207F30D2CF8B1720047F8B9 /* Build configuration list for PBXNativeTarget "TeldaTask" */;
+			buildPhases = (
+				7207F2DC2CF8B1700047F8B9 /* Sources */,
+				7207F2DD2CF8B1700047F8B9 /* Frameworks */,
+				7207F2DE2CF8B1700047F8B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TeldaTask;
+			productName = TeldaTask;
+			productReference = 7207F2E02CF8B1700047F8B9 /* TeldaTask.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7207F2F82CF8B1720047F8B9 /* TeldaTaskTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7207F3102CF8B1720047F8B9 /* Build configuration list for PBXNativeTarget "TeldaTaskTests" */;
+			buildPhases = (
+				7207F2F52CF8B1720047F8B9 /* Sources */,
+				7207F2F62CF8B1720047F8B9 /* Frameworks */,
+				7207F2F72CF8B1720047F8B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7207F2FB2CF8B1720047F8B9 /* PBXTargetDependency */,
+			);
+			name = TeldaTaskTests;
+			productName = TeldaTaskTests;
+			productReference = 7207F2F92CF8B1720047F8B9 /* TeldaTaskTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7207F3022CF8B1720047F8B9 /* TeldaTaskUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7207F3132CF8B1720047F8B9 /* Build configuration list for PBXNativeTarget "TeldaTaskUITests" */;
+			buildPhases = (
+				7207F2FF2CF8B1720047F8B9 /* Sources */,
+				7207F3002CF8B1720047F8B9 /* Frameworks */,
+				7207F3012CF8B1720047F8B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7207F3052CF8B1720047F8B9 /* PBXTargetDependency */,
+			);
+			name = TeldaTaskUITests;
+			productName = TeldaTaskUITests;
+			productReference = 7207F3032CF8B1720047F8B9 /* TeldaTaskUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7207F2D82CF8B1700047F8B9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					7207F2DF2CF8B1700047F8B9 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					7207F2F82CF8B1720047F8B9 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 7207F2DF2CF8B1700047F8B9;
+					};
+					7207F3022CF8B1720047F8B9 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 7207F2DF2CF8B1700047F8B9;
+					};
+				};
+			};
+			buildConfigurationList = 7207F2DB2CF8B1700047F8B9 /* Build configuration list for PBXProject "TeldaTask" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7207F2D72CF8B1700047F8B9;
+			productRefGroup = 7207F2E12CF8B1700047F8B9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7207F2DF2CF8B1700047F8B9 /* TeldaTask */,
+				7207F2F82CF8B1720047F8B9 /* TeldaTaskTests */,
+				7207F3022CF8B1720047F8B9 /* TeldaTaskUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7207F2DE2CF8B1700047F8B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7207F2F32CF8B1720047F8B9 /* LaunchScreen.storyboard in Resources */,
+				7207F2F02CF8B1720047F8B9 /* Assets.xcassets in Resources */,
+				7207F2EB2CF8B1700047F8B9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7207F2F72CF8B1720047F8B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7207F3012CF8B1720047F8B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7207F2DC2CF8B1700047F8B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7207F2E82CF8B1700047F8B9 /* ViewController.swift in Sources */,
+				7207F2E42CF8B1700047F8B9 /* AppDelegate.swift in Sources */,
+				7207F2E62CF8B1700047F8B9 /* SceneDelegate.swift in Sources */,
+				7207F2EE2CF8B1700047F8B9 /* TeldaTask.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7207F2F52CF8B1720047F8B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7207F2FE2CF8B1720047F8B9 /* TeldaTaskTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7207F2FF2CF8B1720047F8B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7207F30A2CF8B1720047F8B9 /* TeldaTaskUITestsLaunchTests.swift in Sources */,
+				7207F3082CF8B1720047F8B9 /* TeldaTaskUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7207F2FB2CF8B1720047F8B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7207F2DF2CF8B1700047F8B9 /* TeldaTask */;
+			targetProxy = 7207F2FA2CF8B1720047F8B9 /* PBXContainerItemProxy */;
+		};
+		7207F3052CF8B1720047F8B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7207F2DF2CF8B1700047F8B9 /* TeldaTask */;
+			targetProxy = 7207F3042CF8B1720047F8B9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7207F2E92CF8B1700047F8B9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7207F2EA2CF8B1700047F8B9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7207F2F12CF8B1720047F8B9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7207F2F22CF8B1720047F8B9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7207F30B2CF8B1720047F8B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7207F30C2CF8B1720047F8B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7207F30E2CF8B1720047F8B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4KP7P7XSCQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TeldaTask/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Etisalat.TeldaTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7207F30F2CF8B1720047F8B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4KP7P7XSCQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TeldaTask/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Etisalat.TeldaTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7207F3112CF8B1720047F8B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4KP7P7XSCQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Etisalat.TeldaTaskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TeldaTask.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TeldaTask";
+			};
+			name = Debug;
+		};
+		7207F3122CF8B1720047F8B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4KP7P7XSCQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Etisalat.TeldaTaskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TeldaTask.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TeldaTask";
+			};
+			name = Release;
+		};
+		7207F3142CF8B1720047F8B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4KP7P7XSCQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Etisalat.TeldaTaskUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TeldaTask;
+			};
+			name = Debug;
+		};
+		7207F3152CF8B1720047F8B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4KP7P7XSCQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Etisalat.TeldaTaskUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TeldaTask;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7207F2DB2CF8B1700047F8B9 /* Build configuration list for PBXProject "TeldaTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7207F30B2CF8B1720047F8B9 /* Debug */,
+				7207F30C2CF8B1720047F8B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7207F30D2CF8B1720047F8B9 /* Build configuration list for PBXNativeTarget "TeldaTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7207F30E2CF8B1720047F8B9 /* Debug */,
+				7207F30F2CF8B1720047F8B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7207F3102CF8B1720047F8B9 /* Build configuration list for PBXNativeTarget "TeldaTaskTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7207F3112CF8B1720047F8B9 /* Debug */,
+				7207F3122CF8B1720047F8B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7207F3132CF8B1720047F8B9 /* Build configuration list for PBXNativeTarget "TeldaTaskUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7207F3142CF8B1720047F8B9 /* Debug */,
+				7207F3152CF8B1720047F8B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7207F2EC2CF8B1700047F8B9 /* TeldaTask.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7207F2ED2CF8B1700047F8B9 /* TeldaTask.xcdatamodel */,
+			);
+			currentVersion = 7207F2ED2CF8B1700047F8B9 /* TeldaTask.xcdatamodel */;
+			path = TeldaTask.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 7207F2D82CF8B1700047F8B9 /* Project object */;
+}
