@@ -9,6 +9,7 @@ import Foundation
 enum AppConstants: String {
     case movieList = "MovieListViewController"
    case  movieCell = "MovieListTableViewCell"
+    case movieDetail = "MovieDetailViewController"
     var value : String {
         get {
             return Bundle.main.infoDictionary![self.rawValue] as! String

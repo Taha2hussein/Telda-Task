@@ -25,5 +25,10 @@ struct MovieAPI: MovieRepository {
 
     }
     
+    func fetchMovieDetails(movie_id: Int) -> AnyPublisher<MovieDetailResponse, APIError> {
+        return self.client.performRequest(api: MovieAPIEndPoint.movieDtail(movie_id: movie_id), decodeTo: MovieDetailResponse.self)
+
+    }
+    
     
 }

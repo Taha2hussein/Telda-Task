@@ -11,6 +11,7 @@ import Foundation
 protocol MovieRepository {
     func fetchMovieList() -> AnyPublisher<MovieResponse, APIError>
     func searchMovie(query: String) -> AnyPublisher<MovieResponse, APIError>
+    func fetchMovieDetails(movie_id: Int) -> AnyPublisher<MovieDetailResponse, APIError>
 }
 
 protocol HasMovieRepository {

@@ -72,6 +72,15 @@ extension MovieListViewController: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         // Handle cell selection if needed
         let selectedMovie = movies[indexPath.row]
+        
+        // we can navigate using Coordinator  to apply  MVVM-C and this is best choice but i now navigation in normal way
+        //MovieDetailViewController
+        
+        let movieDetailVC = MovieDetailViewController(nibName: AppConstants.movieDetail.rawValue, bundle: nil)
+            
+        movieDetailVC.movieId = selectedMovie.id ?? 0
+            
+        self.navigationController?.pushViewController(movieDetailVC, animated: true)
     }
 }
 

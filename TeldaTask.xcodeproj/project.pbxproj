@@ -45,6 +45,10 @@
 		7207F3762CFA760B0047F8B9 /* MovieListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7207F3742CFA760B0047F8B9 /* MovieListTableViewCell.xib */; };
 		7207F37F2CFA87E90047F8B9 /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7207F37E2CFA87E90047F8B9 /* SearchBarView.swift */; };
 		7207F3812CFA87F30047F8B9 /* SearchBarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7207F3802CFA87F30047F8B9 /* SearchBarView.xib */; };
+		728C82682CFB369400B74791 /* MovieDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728C82662CFB369400B74791 /* MovieDetailViewController.swift */; };
+		728C82692CFB369400B74791 /* MovieDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 728C82672CFB369400B74791 /* MovieDetailViewController.xib */; };
+		728C826B2CFB36A100B74791 /* MovieDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728C826A2CFB36A100B74791 /* MovieDetailViewModel.swift */; };
+		728C826E2CFB3E0400B74791 /* MovieDetailResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728C826D2CFB3E0400B74791 /* MovieDetailResponse.swift */; };
 		BB33045EAE53824CC3EAE5D3 /* Pods_TeldaTaskTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD72703DBEEE413F7E37CEA2 /* Pods_TeldaTaskTests.framework */; };
 		DC124F1A8F00A8264124A88B /* Pods_TeldaTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A338DD1F9A0A2D6C98A21E6C /* Pods_TeldaTask.framework */; };
 /* End PBXBuildFile section */
@@ -110,6 +114,10 @@
 		7207F3742CFA760B0047F8B9 /* MovieListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MovieListTableViewCell.xib; sourceTree = "<group>"; };
 		7207F37E2CFA87E90047F8B9 /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
 		7207F3802CFA87F30047F8B9 /* SearchBarView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchBarView.xib; sourceTree = "<group>"; };
+		728C82662CFB369400B74791 /* MovieDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailViewController.swift; sourceTree = "<group>"; };
+		728C82672CFB369400B74791 /* MovieDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MovieDetailViewController.xib; sourceTree = "<group>"; };
+		728C826A2CFB36A100B74791 /* MovieDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailViewModel.swift; sourceTree = "<group>"; };
+		728C826D2CFB3E0400B74791 /* MovieDetailResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailResponse.swift; sourceTree = "<group>"; };
 		806A24E090FC0C85419A47D6 /* Pods-TeldaTaskTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TeldaTaskTests.release.xcconfig"; path = "Target Support Files/Pods-TeldaTaskTests/Pods-TeldaTaskTests.release.xcconfig"; sourceTree = "<group>"; };
 		A2AB31851E0CE152AFC092CF /* Pods-TeldaTaskTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TeldaTaskTests.debug.xcconfig"; path = "Target Support Files/Pods-TeldaTaskTests/Pods-TeldaTaskTests.debug.xcconfig"; sourceTree = "<group>"; };
 		A338DD1F9A0A2D6C98A21E6C /* Pods_TeldaTask.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TeldaTask.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -311,7 +319,7 @@
 		7207F35E2CFA65D00047F8B9 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
-				7207F3822CFB27300047F8B9 /* New Group */,
+				7207F3822CFB27300047F8B9 /* Movie Detail */,
 				7207F35F2CFA65E20047F8B9 /* MovieList */,
 			);
 			path = Modules;
@@ -388,11 +396,39 @@
 			path = "Resuble Components";
 			sourceTree = "<group>";
 		};
-		7207F3822CFB27300047F8B9 /* New Group */ = {
+		7207F3822CFB27300047F8B9 /* Movie Detail */ = {
 			isa = PBXGroup;
 			children = (
+				728C82652CFB367B00B74791 /* Model */,
+				728C82642CFB367400B74791 /* View Model */,
+				728C82632CFB366D00B74791 /* View */,
 			);
-			path = "New Group";
+			path = "Movie Detail";
+			sourceTree = "<group>";
+		};
+		728C82632CFB366D00B74791 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				728C82662CFB369400B74791 /* MovieDetailViewController.swift */,
+				728C82672CFB369400B74791 /* MovieDetailViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		728C82642CFB367400B74791 /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				728C826A2CFB36A100B74791 /* MovieDetailViewModel.swift */,
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
+		728C82652CFB367B00B74791 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				728C826D2CFB3E0400B74791 /* MovieDetailResponse.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -504,6 +540,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				728C82692CFB369400B74791 /* MovieDetailViewController.xib in Resources */,
 				7207F3662CFA660E0047F8B9 /* MovieListViewController.xib in Resources */,
 				7207F3812CFA87F30047F8B9 /* SearchBarView.xib in Resources */,
 				7207F2F32CF8B1720047F8B9 /* LaunchScreen.storyboard in Resources */,
@@ -652,10 +689,13 @@
 				7207F35D2CFA61E90047F8B9 /* AppDependencies.swift in Sources */,
 				7207F36F2CFA67900047F8B9 /* MovieResponse.swift in Sources */,
 				7207F3582CF8EECC0047F8B9 /* Client.swift in Sources */,
+				728C82682CFB369400B74791 /* MovieDetailViewController.swift in Sources */,
 				7207F35A2CF8EECC0047F8B9 /* moyaProvider.swift in Sources */,
 				7207F3522CF8EECC0047F8B9 /* APIError.swift in Sources */,
 				7207F37F2CFA87E90047F8B9 /* SearchBarView.swift in Sources */,
 				7207F3572CF8EECC0047F8B9 /* GenricAPIResponse.swift in Sources */,
+				728C826B2CFB36A100B74791 /* MovieDetailViewModel.swift in Sources */,
+				728C826E2CFB3E0400B74791 /* MovieDetailResponse.swift in Sources */,
 				7207F2E62CF8B1700047F8B9 /* SceneDelegate.swift in Sources */,
 				7207F3712CFA6DDA0047F8B9 /* AppConstants.swift in Sources */,
 				7207F34E2CF8EECC0047F8B9 /* Requests.swift in Sources */,
@@ -839,12 +879,13 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 4KP7P7XSCQ;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TeldaTask/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = "";
 				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -868,12 +909,13 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 4KP7P7XSCQ;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TeldaTask/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = "";
 				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (

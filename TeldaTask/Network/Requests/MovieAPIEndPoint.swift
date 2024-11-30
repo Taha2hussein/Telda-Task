@@ -10,6 +10,7 @@ import Moya
 enum MovieAPIEndPoint {
     case movieList
     case movieSearch(query: String)
+    case movieDtail(movie_id: Int)
 }
 
 extension MovieAPIEndPoint: APIEndpoint {
@@ -23,12 +24,14 @@ extension MovieAPIEndPoint: APIEndpoint {
             return  "movie/popular"
         case .movieSearch:
             return "search/movie"
+        case .movieDtail(let movie_id):
+            return "/movie/\(movie_id)"
         }
     }
     
     var method: HTTPMethod {
         switch self {
-        case .movieList,.movieSearch:
+        case .movieList,.movieSearch,.movieDtail:
             return .get
         }
     }
@@ -43,12 +46,14 @@ extension MovieAPIEndPoint: APIEndpoint {
             ]
             return .requestParameters(parameters: urlParameters, encoding: .queryString)
             
+        case .movieDtail(let movieId):
+            return .requestPlain
         }
     }
     
     var headers: [String: String] {
         switch self {
-        case .movieList,.movieSearch:
+        case .movieList,.movieSearch,.movieDtail:
             return HeadersRequest.shared.getHeaders(type: .normal)
         }
     }
