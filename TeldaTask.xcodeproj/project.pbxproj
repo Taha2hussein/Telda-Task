@@ -7,16 +7,46 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B764F8997FC8A3604307B2E /* Pods_TeldaTask_TeldaTaskUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A888344FA8DF17A67296C113 /* Pods_TeldaTask_TeldaTaskUITests.framework */; };
 		7207F2E42CF8B1700047F8B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7207F2E32CF8B1700047F8B9 /* AppDelegate.swift */; };
 		7207F2E62CF8B1700047F8B9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7207F2E52CF8B1700047F8B9 /* SceneDelegate.swift */; };
-		7207F2E82CF8B1700047F8B9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7207F2E72CF8B1700047F8B9 /* ViewController.swift */; };
-		7207F2EB2CF8B1700047F8B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7207F2E92CF8B1700047F8B9 /* Main.storyboard */; };
 		7207F2EE2CF8B1700047F8B9 /* TeldaTask.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7207F2EC2CF8B1700047F8B9 /* TeldaTask.xcdatamodeld */; };
 		7207F2F02CF8B1720047F8B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7207F2EF2CF8B1720047F8B9 /* Assets.xcassets */; };
 		7207F2F32CF8B1720047F8B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7207F2F12CF8B1720047F8B9 /* LaunchScreen.storyboard */; };
 		7207F2FE2CF8B1720047F8B9 /* TeldaTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7207F2FD2CF8B1720047F8B9 /* TeldaTaskTests.swift */; };
 		7207F3082CF8B1720047F8B9 /* TeldaTaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7207F3072CF8B1720047F8B9 /* TeldaTaskUITests.swift */; };
 		7207F30A2CF8B1720047F8B9 /* TeldaTaskUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7207F3092CF8B1720047F8B9 /* TeldaTaskUITestsLaunchTests.swift */; };
+		7207F3192CF8B5FB0047F8B9 /* CImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7207F3182CF8B5FB0047F8B9 /* CImageLoader.swift */; };
+		7207F31B2CF8B6050047F8B9 /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7207F31A2CF8B6050047F8B9 /* ImageCache.swift */; };
+		7207F31D2CF8B60E0047F8B9 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7207F31C2CF8B60E0047F8B9 /* NetworkManager.swift */; };
+		7207F34D2CF8EECC0047F8B9 /* EnviromentConfigurations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7207F33C2CF8EECC0047F8B9 /* EnviromentConfigurations.swift */; };
+		7207F34E2CF8EECC0047F8B9 /* Requests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7207F33D2CF8EECC0047F8B9 /* Requests.swift */; };
+		7207F34F2CF8EECC0047F8B9 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7207F33E2CF8EECC0047F8B9 /* Repository.swift */; };
+		7207F3502CF8EECC0047F8B9 /* MovieAPIEndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7207F33F2CF8EECC0047F8B9 /* MovieAPIEndPoint.swift */; };
+		7207F3512CF8EECC0047F8B9 /* Heder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7207F3402CF8EECC0047F8B9 /* Heder.swift */; };
+		7207F3522CF8EECC0047F8B9 /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7207F3422CF8EECC0047F8B9 /* APIError.swift */; };
+		7207F3532CF8EECC0047F8B9 /* BackendError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7207F3432CF8EECC0047F8B9 /* BackendError.swift */; };
+		7207F3542CF8EECC0047F8B9 /* NetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7207F3452CF8EECC0047F8B9 /* NetworkClient.swift */; };
+		7207F3562CF8EECC0047F8B9 /* Transport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7207F3472CF8EECC0047F8B9 /* Transport.swift */; };
+		7207F3572CF8EECC0047F8B9 /* GenricAPIResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7207F3482CF8EECC0047F8B9 /* GenricAPIResponse.swift */; };
+		7207F3582CF8EECC0047F8B9 /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7207F3492CF8EECC0047F8B9 /* Client.swift */; };
+		7207F3592CF8EECC0047F8B9 /* APIEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7207F34A2CF8EECC0047F8B9 /* APIEndpoint.swift */; };
+		7207F35A2CF8EECC0047F8B9 /* moyaProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7207F34B2CF8EECC0047F8B9 /* moyaProvider.swift */; };
+		7207F35B2CF8EECC0047F8B9 /* MoyaProvider+Transport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7207F34C2CF8EECC0047F8B9 /* MoyaProvider+Transport.swift */; };
+		7207F35D2CFA61E90047F8B9 /* AppDependencies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7207F35C2CFA61E90047F8B9 /* AppDependencies.swift */; };
+		7207F3652CFA660E0047F8B9 /* MovieListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7207F3632CFA660E0047F8B9 /* MovieListViewController.swift */; };
+		7207F3662CFA660E0047F8B9 /* MovieListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7207F3642CFA660E0047F8B9 /* MovieListViewController.xib */; };
+		7207F3682CFA66510047F8B9 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7207F3672CFA66510047F8B9 /* BaseViewController.swift */; };
+		7207F36B2CFA66A40047F8B9 /* DOAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7207F36A2CFA66A40047F8B9 /* DOAlertController.swift */; };
+		7207F36D2CFA67460047F8B9 /* MovieListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7207F36C2CFA67460047F8B9 /* MovieListViewModel.swift */; };
+		7207F36F2CFA67900047F8B9 /* MovieResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7207F36E2CFA67900047F8B9 /* MovieResponse.swift */; };
+		7207F3712CFA6DDA0047F8B9 /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7207F3702CFA6DDA0047F8B9 /* AppConstants.swift */; };
+		7207F3752CFA760B0047F8B9 /* MovieListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7207F3732CFA760B0047F8B9 /* MovieListTableViewCell.swift */; };
+		7207F3762CFA760B0047F8B9 /* MovieListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7207F3742CFA760B0047F8B9 /* MovieListTableViewCell.xib */; };
+		7207F37F2CFA87E90047F8B9 /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7207F37E2CFA87E90047F8B9 /* SearchBarView.swift */; };
+		7207F3812CFA87F30047F8B9 /* SearchBarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7207F3802CFA87F30047F8B9 /* SearchBarView.xib */; };
+		BB33045EAE53824CC3EAE5D3 /* Pods_TeldaTaskTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD72703DBEEE413F7E37CEA2 /* Pods_TeldaTaskTests.framework */; };
+		DC124F1A8F00A8264124A88B /* Pods_TeldaTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A338DD1F9A0A2D6C98A21E6C /* Pods_TeldaTask.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,11 +67,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00A3FCEE0F915A915323F175 /* Pods-TeldaTask-TeldaTaskUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TeldaTask-TeldaTaskUITests.debug.xcconfig"; path = "Target Support Files/Pods-TeldaTask-TeldaTaskUITests/Pods-TeldaTask-TeldaTaskUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1614164825213FC4A2F2AEC7 /* Pods-TeldaTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TeldaTask.debug.xcconfig"; path = "Target Support Files/Pods-TeldaTask/Pods-TeldaTask.debug.xcconfig"; sourceTree = "<group>"; };
 		7207F2E02CF8B1700047F8B9 /* TeldaTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TeldaTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7207F2E32CF8B1700047F8B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7207F2E52CF8B1700047F8B9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7207F2E72CF8B1700047F8B9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		7207F2EA2CF8B1700047F8B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7207F2ED2CF8B1700047F8B9 /* TeldaTask.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TeldaTask.xcdatamodel; sourceTree = "<group>"; };
 		7207F2EF2CF8B1720047F8B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7207F2F22CF8B1720047F8B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +81,42 @@
 		7207F3032CF8B1720047F8B9 /* TeldaTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TeldaTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7207F3072CF8B1720047F8B9 /* TeldaTaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeldaTaskUITests.swift; sourceTree = "<group>"; };
 		7207F3092CF8B1720047F8B9 /* TeldaTaskUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeldaTaskUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7207F3182CF8B5FB0047F8B9 /* CImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CImageLoader.swift; sourceTree = "<group>"; };
+		7207F31A2CF8B6050047F8B9 /* ImageCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCache.swift; sourceTree = "<group>"; };
+		7207F31C2CF8B60E0047F8B9 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		7207F33C2CF8EECC0047F8B9 /* EnviromentConfigurations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnviromentConfigurations.swift; sourceTree = "<group>"; };
+		7207F33D2CF8EECC0047F8B9 /* Requests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Requests.swift; sourceTree = "<group>"; };
+		7207F33E2CF8EECC0047F8B9 /* Repository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
+		7207F33F2CF8EECC0047F8B9 /* MovieAPIEndPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieAPIEndPoint.swift; sourceTree = "<group>"; };
+		7207F3402CF8EECC0047F8B9 /* Heder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Heder.swift; sourceTree = "<group>"; };
+		7207F3422CF8EECC0047F8B9 /* APIError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
+		7207F3432CF8EECC0047F8B9 /* BackendError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackendError.swift; sourceTree = "<group>"; };
+		7207F3452CF8EECC0047F8B9 /* NetworkClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkClient.swift; sourceTree = "<group>"; };
+		7207F3472CF8EECC0047F8B9 /* Transport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Transport.swift; sourceTree = "<group>"; };
+		7207F3482CF8EECC0047F8B9 /* GenricAPIResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenricAPIResponse.swift; sourceTree = "<group>"; };
+		7207F3492CF8EECC0047F8B9 /* Client.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
+		7207F34A2CF8EECC0047F8B9 /* APIEndpoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIEndpoint.swift; sourceTree = "<group>"; };
+		7207F34B2CF8EECC0047F8B9 /* moyaProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = moyaProvider.swift; sourceTree = "<group>"; };
+		7207F34C2CF8EECC0047F8B9 /* MoyaProvider+Transport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MoyaProvider+Transport.swift"; sourceTree = "<group>"; };
+		7207F35C2CFA61E90047F8B9 /* AppDependencies.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDependencies.swift; sourceTree = "<group>"; };
+		7207F3632CFA660E0047F8B9 /* MovieListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListViewController.swift; sourceTree = "<group>"; };
+		7207F3642CFA660E0047F8B9 /* MovieListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MovieListViewController.xib; sourceTree = "<group>"; };
+		7207F3672CFA66510047F8B9 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		7207F36A2CFA66A40047F8B9 /* DOAlertController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DOAlertController.swift; sourceTree = "<group>"; };
+		7207F36C2CFA67460047F8B9 /* MovieListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListViewModel.swift; sourceTree = "<group>"; };
+		7207F36E2CFA67900047F8B9 /* MovieResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieResponse.swift; sourceTree = "<group>"; };
+		7207F3702CFA6DDA0047F8B9 /* AppConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
+		7207F3732CFA760B0047F8B9 /* MovieListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListTableViewCell.swift; sourceTree = "<group>"; };
+		7207F3742CFA760B0047F8B9 /* MovieListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MovieListTableViewCell.xib; sourceTree = "<group>"; };
+		7207F37E2CFA87E90047F8B9 /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
+		7207F3802CFA87F30047F8B9 /* SearchBarView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchBarView.xib; sourceTree = "<group>"; };
+		806A24E090FC0C85419A47D6 /* Pods-TeldaTaskTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TeldaTaskTests.release.xcconfig"; path = "Target Support Files/Pods-TeldaTaskTests/Pods-TeldaTaskTests.release.xcconfig"; sourceTree = "<group>"; };
+		A2AB31851E0CE152AFC092CF /* Pods-TeldaTaskTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TeldaTaskTests.debug.xcconfig"; path = "Target Support Files/Pods-TeldaTaskTests/Pods-TeldaTaskTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A338DD1F9A0A2D6C98A21E6C /* Pods_TeldaTask.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TeldaTask.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A888344FA8DF17A67296C113 /* Pods_TeldaTask_TeldaTaskUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TeldaTask_TeldaTaskUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB168DC11CCB0D1C7B3C2DEC /* Pods-TeldaTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TeldaTask.release.xcconfig"; path = "Target Support Files/Pods-TeldaTask/Pods-TeldaTask.release.xcconfig"; sourceTree = "<group>"; };
+		CD72703DBEEE413F7E37CEA2 /* Pods_TeldaTaskTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TeldaTaskTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC4B540065BB707B7AF604CB /* Pods-TeldaTask-TeldaTaskUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TeldaTask-TeldaTaskUITests.release.xcconfig"; path = "Target Support Files/Pods-TeldaTask-TeldaTaskUITests/Pods-TeldaTask-TeldaTaskUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +124,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC124F1A8F00A8264124A88B /* Pods_TeldaTask.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +132,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB33045EAE53824CC3EAE5D3 /* Pods_TeldaTaskTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,19 +140,46 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B764F8997FC8A3604307B2E /* Pods_TeldaTask_TeldaTaskUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2CE891C8D688B8AC84E69C2B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A338DD1F9A0A2D6C98A21E6C /* Pods_TeldaTask.framework */,
+				A888344FA8DF17A67296C113 /* Pods_TeldaTask_TeldaTaskUITests.framework */,
+				CD72703DBEEE413F7E37CEA2 /* Pods_TeldaTaskTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		66CB56C1C3D77FFE76C1D32D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1614164825213FC4A2F2AEC7 /* Pods-TeldaTask.debug.xcconfig */,
+				AB168DC11CCB0D1C7B3C2DEC /* Pods-TeldaTask.release.xcconfig */,
+				00A3FCEE0F915A915323F175 /* Pods-TeldaTask-TeldaTaskUITests.debug.xcconfig */,
+				EC4B540065BB707B7AF604CB /* Pods-TeldaTask-TeldaTaskUITests.release.xcconfig */,
+				A2AB31851E0CE152AFC092CF /* Pods-TeldaTaskTests.debug.xcconfig */,
+				806A24E090FC0C85419A47D6 /* Pods-TeldaTaskTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		7207F2D72CF8B1700047F8B9 = {
 			isa = PBXGroup;
 			children = (
 				7207F2E22CF8B1700047F8B9 /* TeldaTask */,
+				7207F2F12CF8B1720047F8B9 /* LaunchScreen.storyboard */,
 				7207F2FC2CF8B1720047F8B9 /* TeldaTaskTests */,
 				7207F3062CF8B1720047F8B9 /* TeldaTaskUITests */,
 				7207F2E12CF8B1700047F8B9 /* Products */,
+				66CB56C1C3D77FFE76C1D32D /* Pods */,
+				2CE891C8D688B8AC84E69C2B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,14 +196,16 @@
 		7207F2E22CF8B1700047F8B9 /* TeldaTask */ = {
 			isa = PBXGroup;
 			children = (
-				7207F2E32CF8B1700047F8B9 /* AppDelegate.swift */,
-				7207F2E52CF8B1700047F8B9 /* SceneDelegate.swift */,
-				7207F2E72CF8B1700047F8B9 /* ViewController.swift */,
-				7207F2E92CF8B1700047F8B9 /* Main.storyboard */,
-				7207F2EF2CF8B1720047F8B9 /* Assets.xcassets */,
-				7207F2F12CF8B1720047F8B9 /* LaunchScreen.storyboard */,
+				7207F3792CFA86320047F8B9 /* Resuble Components */,
+				7207F3772CFA86050047F8B9 /* Utilites */,
+				7207F3692CFA66970047F8B9 /* Common */,
+				7207F3202CF8B7EC0047F8B9 /* CoreData */,
+				7207F31F2CF8B7DF0047F8B9 /* Resources */,
+				7207F31E2CF8B7C60047F8B9 /* Delegation */,
+				7207F3172CF8B5D80047F8B9 /* ImageCache */,
+				7207F33A2CF8EECC0047F8B9 /* Network */,
+				7207F35E2CFA65D00047F8B9 /* Modules */,
 				7207F2F42CF8B1720047F8B9 /* Info.plist */,
-				7207F2EC2CF8B1700047F8B9 /* TeldaTask.xcdatamodeld */,
 			);
 			path = TeldaTask;
 			sourceTree = "<group>";
@@ -130,6 +227,174 @@
 			path = TeldaTaskUITests;
 			sourceTree = "<group>";
 		};
+		7207F3172CF8B5D80047F8B9 /* ImageCache */ = {
+			isa = PBXGroup;
+			children = (
+				7207F3182CF8B5FB0047F8B9 /* CImageLoader.swift */,
+				7207F31A2CF8B6050047F8B9 /* ImageCache.swift */,
+				7207F31C2CF8B60E0047F8B9 /* NetworkManager.swift */,
+			);
+			path = ImageCache;
+			sourceTree = "<group>";
+		};
+		7207F31E2CF8B7C60047F8B9 /* Delegation */ = {
+			isa = PBXGroup;
+			children = (
+				7207F35C2CFA61E90047F8B9 /* AppDependencies.swift */,
+				7207F2E32CF8B1700047F8B9 /* AppDelegate.swift */,
+				7207F2E52CF8B1700047F8B9 /* SceneDelegate.swift */,
+			);
+			path = Delegation;
+			sourceTree = "<group>";
+		};
+		7207F31F2CF8B7DF0047F8B9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7207F2EF2CF8B1720047F8B9 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		7207F3202CF8B7EC0047F8B9 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				7207F2EC2CF8B1700047F8B9 /* TeldaTask.xcdatamodeld */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		7207F33A2CF8EECC0047F8B9 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				7207F33B2CF8EECC0047F8B9 /* Requests */,
+				7207F3412CF8EECC0047F8B9 /* NetworkError */,
+				7207F3442CF8EECC0047F8B9 /* NetWorkLayer */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		7207F33B2CF8EECC0047F8B9 /* Requests */ = {
+			isa = PBXGroup;
+			children = (
+				7207F33C2CF8EECC0047F8B9 /* EnviromentConfigurations.swift */,
+				7207F33D2CF8EECC0047F8B9 /* Requests.swift */,
+				7207F33E2CF8EECC0047F8B9 /* Repository.swift */,
+				7207F33F2CF8EECC0047F8B9 /* MovieAPIEndPoint.swift */,
+				7207F3402CF8EECC0047F8B9 /* Heder.swift */,
+			);
+			path = Requests;
+			sourceTree = "<group>";
+		};
+		7207F3412CF8EECC0047F8B9 /* NetworkError */ = {
+			isa = PBXGroup;
+			children = (
+				7207F3422CF8EECC0047F8B9 /* APIError.swift */,
+				7207F3432CF8EECC0047F8B9 /* BackendError.swift */,
+			);
+			path = NetworkError;
+			sourceTree = "<group>";
+		};
+		7207F3442CF8EECC0047F8B9 /* NetWorkLayer */ = {
+			isa = PBXGroup;
+			children = (
+				7207F3452CF8EECC0047F8B9 /* NetworkClient.swift */,
+				7207F3472CF8EECC0047F8B9 /* Transport.swift */,
+				7207F3482CF8EECC0047F8B9 /* GenricAPIResponse.swift */,
+				7207F3492CF8EECC0047F8B9 /* Client.swift */,
+				7207F34A2CF8EECC0047F8B9 /* APIEndpoint.swift */,
+				7207F34B2CF8EECC0047F8B9 /* moyaProvider.swift */,
+				7207F34C2CF8EECC0047F8B9 /* MoyaProvider+Transport.swift */,
+			);
+			path = NetWorkLayer;
+			sourceTree = "<group>";
+		};
+		7207F35E2CFA65D00047F8B9 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				7207F3822CFB27300047F8B9 /* New Group */,
+				7207F35F2CFA65E20047F8B9 /* MovieList */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		7207F35F2CFA65E20047F8B9 /* MovieList */ = {
+			isa = PBXGroup;
+			children = (
+				7207F3722CFA75E40047F8B9 /* Cell */,
+				7207F3622CFA65F60047F8B9 /* Model */,
+				7207F3612CFA65EE0047F8B9 /* ViewModel */,
+				7207F3602CFA65E90047F8B9 /* View */,
+			);
+			path = MovieList;
+			sourceTree = "<group>";
+		};
+		7207F3602CFA65E90047F8B9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7207F3632CFA660E0047F8B9 /* MovieListViewController.swift */,
+				7207F3642CFA660E0047F8B9 /* MovieListViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7207F3612CFA65EE0047F8B9 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				7207F36C2CFA67460047F8B9 /* MovieListViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		7207F3622CFA65F60047F8B9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7207F36E2CFA67900047F8B9 /* MovieResponse.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7207F3692CFA66970047F8B9 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				7207F3672CFA66510047F8B9 /* BaseViewController.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		7207F3722CFA75E40047F8B9 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				7207F3732CFA760B0047F8B9 /* MovieListTableViewCell.swift */,
+				7207F3742CFA760B0047F8B9 /* MovieListTableViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		7207F3772CFA86050047F8B9 /* Utilites */ = {
+			isa = PBXGroup;
+			children = (
+				7207F36A2CFA66A40047F8B9 /* DOAlertController.swift */,
+				7207F3702CFA6DDA0047F8B9 /* AppConstants.swift */,
+			);
+			path = Utilites;
+			sourceTree = "<group>";
+		};
+		7207F3792CFA86320047F8B9 /* Resuble Components */ = {
+			isa = PBXGroup;
+			children = (
+				7207F37E2CFA87E90047F8B9 /* SearchBarView.swift */,
+				7207F3802CFA87F30047F8B9 /* SearchBarView.xib */,
+			);
+			path = "Resuble Components";
+			sourceTree = "<group>";
+		};
+		7207F3822CFB27300047F8B9 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,9 +402,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7207F30D2CF8B1720047F8B9 /* Build configuration list for PBXNativeTarget "TeldaTask" */;
 			buildPhases = (
+				B1951D8018D5BEF336237F66 /* [CP] Check Pods Manifest.lock */,
 				7207F2DC2CF8B1700047F8B9 /* Sources */,
 				7207F2DD2CF8B1700047F8B9 /* Frameworks */,
 				7207F2DE2CF8B1700047F8B9 /* Resources */,
+				3F218DB3EF4528A0A24A9145 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -154,6 +421,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7207F3102CF8B1720047F8B9 /* Build configuration list for PBXNativeTarget "TeldaTaskTests" */;
 			buildPhases = (
+				01D0CACA41276F77B85FBE9C /* [CP] Check Pods Manifest.lock */,
 				7207F2F52CF8B1720047F8B9 /* Sources */,
 				7207F2F62CF8B1720047F8B9 /* Frameworks */,
 				7207F2F72CF8B1720047F8B9 /* Resources */,
@@ -172,9 +440,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7207F3132CF8B1720047F8B9 /* Build configuration list for PBXNativeTarget "TeldaTaskUITests" */;
 			buildPhases = (
+				6A9F5B79FB57B28546AB072E /* [CP] Check Pods Manifest.lock */,
 				7207F2FF2CF8B1720047F8B9 /* Sources */,
 				7207F3002CF8B1720047F8B9 /* Frameworks */,
 				7207F3012CF8B1720047F8B9 /* Resources */,
+				59F9D178DBA339B4A4C8742D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -234,9 +504,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7207F3662CFA660E0047F8B9 /* MovieListViewController.xib in Resources */,
+				7207F3812CFA87F30047F8B9 /* SearchBarView.xib in Resources */,
 				7207F2F32CF8B1720047F8B9 /* LaunchScreen.storyboard in Resources */,
+				7207F3762CFA760B0047F8B9 /* MovieListTableViewCell.xib in Resources */,
 				7207F2F02CF8B1720047F8B9 /* Assets.xcassets in Resources */,
-				7207F2EB2CF8B1700047F8B9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,15 +528,143 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		01D0CACA41276F77B85FBE9C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TeldaTaskTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3F218DB3EF4528A0A24A9145 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TeldaTask/Pods-TeldaTask-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TeldaTask/Pods-TeldaTask-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TeldaTask/Pods-TeldaTask-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		59F9D178DBA339B4A4C8742D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TeldaTask-TeldaTaskUITests/Pods-TeldaTask-TeldaTaskUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TeldaTask-TeldaTaskUITests/Pods-TeldaTask-TeldaTaskUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TeldaTask-TeldaTaskUITests/Pods-TeldaTask-TeldaTaskUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6A9F5B79FB57B28546AB072E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TeldaTask-TeldaTaskUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B1951D8018D5BEF336237F66 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TeldaTask-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7207F2DC2CF8B1700047F8B9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7207F2E82CF8B1700047F8B9 /* ViewController.swift in Sources */,
+				7207F3502CF8EECC0047F8B9 /* MovieAPIEndPoint.swift in Sources */,
+				7207F36B2CFA66A40047F8B9 /* DOAlertController.swift in Sources */,
+				7207F35B2CF8EECC0047F8B9 /* MoyaProvider+Transport.swift in Sources */,
+				7207F3532CF8EECC0047F8B9 /* BackendError.swift in Sources */,
+				7207F3682CFA66510047F8B9 /* BaseViewController.swift in Sources */,
+				7207F31B2CF8B6050047F8B9 /* ImageCache.swift in Sources */,
 				7207F2E42CF8B1700047F8B9 /* AppDelegate.swift in Sources */,
+				7207F31D2CF8B60E0047F8B9 /* NetworkManager.swift in Sources */,
+				7207F3192CF8B5FB0047F8B9 /* CImageLoader.swift in Sources */,
+				7207F3652CFA660E0047F8B9 /* MovieListViewController.swift in Sources */,
+				7207F3752CFA760B0047F8B9 /* MovieListTableViewCell.swift in Sources */,
+				7207F3562CF8EECC0047F8B9 /* Transport.swift in Sources */,
+				7207F3592CF8EECC0047F8B9 /* APIEndpoint.swift in Sources */,
+				7207F35D2CFA61E90047F8B9 /* AppDependencies.swift in Sources */,
+				7207F36F2CFA67900047F8B9 /* MovieResponse.swift in Sources */,
+				7207F3582CF8EECC0047F8B9 /* Client.swift in Sources */,
+				7207F35A2CF8EECC0047F8B9 /* moyaProvider.swift in Sources */,
+				7207F3522CF8EECC0047F8B9 /* APIError.swift in Sources */,
+				7207F37F2CFA87E90047F8B9 /* SearchBarView.swift in Sources */,
+				7207F3572CF8EECC0047F8B9 /* GenricAPIResponse.swift in Sources */,
 				7207F2E62CF8B1700047F8B9 /* SceneDelegate.swift in Sources */,
+				7207F3712CFA6DDA0047F8B9 /* AppConstants.swift in Sources */,
+				7207F34E2CF8EECC0047F8B9 /* Requests.swift in Sources */,
+				7207F34D2CF8EECC0047F8B9 /* EnviromentConfigurations.swift in Sources */,
 				7207F2EE2CF8B1700047F8B9 /* TeldaTask.xcdatamodeld in Sources */,
+				7207F3542CF8EECC0047F8B9 /* NetworkClient.swift in Sources */,
+				7207F34F2CF8EECC0047F8B9 /* Repository.swift in Sources */,
+				7207F3512CF8EECC0047F8B9 /* Heder.swift in Sources */,
+				7207F36D2CFA67460047F8B9 /* MovieListViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,14 +701,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		7207F2E92CF8B1700047F8B9 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7207F2EA2CF8B1700047F8B9 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		7207F2F12CF8B1720047F8B9 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -357,7 +749,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -420,7 +812,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -441,6 +833,7 @@
 		};
 		7207F30E2CF8B1720047F8B9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1614164825213FC4A2F2AEC7 /* Pods-TeldaTask.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -450,10 +843,10 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TeldaTask/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = "";
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -469,6 +862,7 @@
 		};
 		7207F30F2CF8B1720047F8B9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB168DC11CCB0D1C7B3C2DEC /* Pods-TeldaTask.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -478,10 +872,10 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TeldaTask/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = "";
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -497,6 +891,7 @@
 		};
 		7207F3112CF8B1720047F8B9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2AB31851E0CE152AFC092CF /* Pods-TeldaTaskTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -517,6 +912,7 @@
 		};
 		7207F3122CF8B1720047F8B9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 806A24E090FC0C85419A47D6 /* Pods-TeldaTaskTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -537,6 +933,7 @@
 		};
 		7207F3142CF8B1720047F8B9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00A3FCEE0F915A915323F175 /* Pods-TeldaTask-TeldaTaskUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -555,6 +952,7 @@
 		};
 		7207F3152CF8B1720047F8B9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC4B540065BB707B7AF604CB /* Pods-TeldaTask-TeldaTaskUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
